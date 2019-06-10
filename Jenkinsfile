@@ -29,7 +29,6 @@ pipeline {
                 archiveArtifacts artifacts: '**/target/*.jar', fingerprint: true
             }
         }
-        stages {
         stage('Build Docker Image') {
             when {
                 branch 'master'
