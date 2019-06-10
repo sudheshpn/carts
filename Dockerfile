@@ -1,4 +1,4 @@
-FROM  schoolofdevops/carts-maven
+FROM maven:3.5.4
 
 
 WORKDIR /opt/carts
