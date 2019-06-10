@@ -1,4 +1,4 @@
-FROM maven:3.5.4
+FROM sudheshpn/carts:v1
 
 
 WORKDIR /opt/carts
